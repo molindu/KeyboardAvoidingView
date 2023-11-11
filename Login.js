@@ -21,7 +21,6 @@ export default function Login({ navigation }) {
 
 
   const isButtonDisabled = !userName || !password;
-  // const IMAGE = { uri: 'https://portfolio-molindu-1.000webhostapp.com/background.png' };
   const Login = () => {
     navigation.navigate(MAIN_ROUTES.SELECT_TRAIN);
   }
